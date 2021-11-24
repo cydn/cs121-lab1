@@ -1,16 +1,11 @@
-#ifndef BFS_SEQUENTIAL_HPP
-#define BFS_SEQUENTIAL_HPP
+#ifndef BFS_HPP
+#define BFS_HPP
 
-#include<queue>
-#include<list>
-#include<cstdlib>
-
-using namespace std;
-
-
-
-
-
-
+#include "graph.hpp"
+#include "queue"
+#include "iterator"
 
 #endif
+
+
+void bfs_sequential(Vertex* root);
